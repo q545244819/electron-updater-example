@@ -1,6 +1,6 @@
 {
   "name": "electron-updater-example",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "main": "main.js",
   "description": "electron-updater example project",
   "author": "Matt Haggard",
@@ -23,6 +23,11 @@
     },
     "nsis": {
       "perMachine": true
-    }
+    },
+    "publish": [{
+      "provider": "github",
+      "owner": "q545244819",
+      "repo": "electron-updater-example"
+    }]
   }
 }
